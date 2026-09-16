@@ -1,0 +1,10 @@
+[package]
+name = "o_057"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+# cargo add tokio --features macros,rt-multi-thread
+tokio = { version = "1.53.1", features = ["macros", "rt-multi-thread"] }
+# cargo add tokio_stream
+tokio-stream = "0.1.19"
